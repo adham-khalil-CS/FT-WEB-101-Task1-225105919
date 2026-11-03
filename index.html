@@ -1,0 +1,81 @@
+<!-- 
+  Name: [Adham Khalil]
+  Student ID: [225105919]
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    
+    <header>
+        <div class="nav-bar">
+            <h1>Adham Khalil</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#cards">Skills</a> 
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    
+    <main>
+      
+        <section class="photo-section">
+            <img src="images/me.jpg" alt="A personal photo of me">
+        </section>
+
+      
+        <div class="theme-toggle-container">
+            <button id="theme-toggle-btn">Toggle Dark Mode</button>
+        </div>
+
+       
+        <section id="cards" class="cards-section">
+            <div class="card">
+                <h3>HTML & CSS</h3>
+                <p>Building responsive and modern web interfaces.</p>
+            </div>
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Adding interactivity and dynamic behavior to pages.</p>
+            </div>
+            <div class="card">
+                <h3>Problem Solving</h3>
+                <p>Analyzing logical challenges and finding efficient solutions.</p>
+            </div>
+        </section>
+
+        
+        <section id="contact" class="form-section">
+            <h2>Get in Touch</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Adham Khalil. All rights reserved.</p>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
